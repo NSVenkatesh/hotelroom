@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Room Booking</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="content">
+        <div class="left">
+            <div class="chm">
+                <p>CHM</p>
+            </div>
+            <div class="page_icon">
+                <ul class="icons">
+                    <li><img src="img/icon1.jpg"></li>
+                    <li><img src="img/icon2.jpg"></li>
+                    <li><img src="img/icon3.jpg"></li>
+                    <li><img src="img/icon4.jpg"></li>
+                    <li><img src="img/icon5.jpg"></li>
+                    <li><img src="img/icon6.jpg"></li>
+                    <li><img src="img/icon7.jpg"></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="top_profile">
+                <div class="search">
+                    <input type="text" id="search" placeholder="Search room name, other facilities" autocomplete="off">
+                    <i class="fa fa-search search_icon" aria-hidden="true"></i>
+                </div>
+                <div class="profile">
+                    <img src="img/p_icon1.jpg" class="p_img p_imgh" alt="p_icon1">
+                    <img src="img/p_icon2.jpg" class="p_img1 p_imgh" alt="p_icon2">
+                    <div class="profile_details">
+                        <img src="img/p_face.jpg" alt="p_face" class="p_img2">
+                        <div class="profile_name">
+                            <h3>Brooklyn Simmons</h3>
+                            <p>Head Manager</p>
+                        </div>
+                        <i class="fa fa-angle-down p_down" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- Room bookings....... -->
+            <div class="booking">
+                <div class="search_room">
+                    <div class="avail_room">
+                        <h2 class="s_room">Search Room</h2>
+                        <p class="s_avail">Search available room for reservation</p>
+                        <div class="date">
+                            <div class="from_date">
+                                <p>Check In</p>
+                                <h3>Tue, Jul 27</h3>
+                            </div>
+                            <div class="from_date">
+                                <p>Check Out</p>
+                                <h3>Tue, Jul 27</h3>
+                            </div>
+                        </div>
+                        <div class="s_det">
+                            <div class="s_details">
+                                <div class="s_option">
+                                    <h3>Adult</h3>
+                                    <p>Older than 12 years</p>
+                                </div>
+                                <div class="s_add">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <p>2</p>
+                                    <i class="fa fa-plus s_plus" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <div class="s_details">
+                                <div class="s_option">
+                                    <h3>Children</h3>
+                                    <p>0 - 12 years</p>
+                                </div>
+                                <div class="s_add">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <p>0</p>
+                                    <i class="fa fa-plus s_plus" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <div class="s_details">
+                                <div class="s_option">
+                                    <h3>Room</h3>
+                                </div>
+                                <div class="s_add">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <p>2</p>
+                                    <i class="fa fa-plus s_plus" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="s_deluxe">
+                            <p>Room Type</p>
+                            <h3>Deluxe</h3>
+                        </div>
+                        <button class="s_btn">Search</button>
+                    </div>
+                    <div class="last_reserv">
+                        <div class="l_reserv">
+                            <h2>Last Reservation</h2>
+                            <img src="img/doticon.jpg" alt="doticon">
+                        </div>
+                        <div class="l_details">
+                            <div class="same">
+                                <img src="img/imgreserve.jpg" alt="imgreserve">
+                                <div class="l_hist">
+                                    <p class="price">$239/night</p>
+                                    <h3>Luxury King Size</h3>
+                                    <p class="date1">24 Jul - 26 Jul</p>
+                                </div>
+                            </div>
+                            <i class="fa fa-angle-right l_right" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="avail_rooms1">
+                    <h1 class="available_room">Available Rooms</h1>
+                    <div class="rooms">
+                        <p class="a_room">120+ Room Available</p>
+                        <div class="sort">
+                            <img src="img/sort.jpg" alt="sorticon">
+                            <p class="sort_1">Sort by :</p>
+                            <p class="sort_list">Relevance <i class="fa fa-angle-down s_down" aria-hidden="true"></i>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="room_list">
+                        <ul class="r_lists">
+                            <li>All Rooms</li>
+                            <li>Deluxe</li>
+                            <li>Standard</li>
+                            <li>Presidential</li>
+                            <li>Suite</li>
+                            <li>Junior Suite</li>
+                            <li>Twin Room</li>
+                        </ul>
+                    </div>
+                    <div class="room_types">
+                        <div class="r_same">
+                            <img src="img/img1.jpg" alt="img1">
+                            <div class="r_details">
+                                <p>$219/night</p>
+                                <h2>Deluxe Twin Bed 2A</h2>
+                                <ul class="r_icons">
+                                    <li><img src="img/bed.JPG" alt="bed"><span>Double Bed</span></li>
+                                    <li><img src="img/shower.JPG" alt="bed"><span>Jacuzzi</span></li>
+                                    <li><img src="img/shower1.JPG" alt="bed"><span>Shower</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="r_btn">
+                            <p>Room Detail</p>
+                            <button class="r_button">Make Reservation</button>
+                        </div>
+                    </div>
+                    <div class="room_types">
+                        <div class="r_same">
+                            <img src="img/img2.jpg" alt="img2">
+                            <div class="r_details">
+                                <p>$234/night</p>
+                                <h2>Deluxe Queen Size 11B</h2>
+                                <ul class="r_icons">
+                                    <li><img src="img/bed.JPG" alt="bed"><span>Queen Size</span></li>
+                                    <li><img src="img/shower.JPG" alt="shower"><span>Jacuzzi</span></li>
+                                    <li><img src="img/shower1.JPG" alt="shower1"><span>Shower</span></li>
+                                    <li><img src="img/bar.JPG" alt="bar"><span>Mini bar</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="r_btn">
+                            <p>Room Detail</p>
+                            <button class="r_button">Make Reservation</button>
+                        </div>
+                    </div>
+                    <div class="room_types">
+                        <div class="r_same">
+                            <img src="img/img3.jpg" alt="img3">
+                            <div class="r_details">
+                                <p>$201/night</p>
+                                <h2>Deluxe Single Bed 8D</h2>
+                                <ul class="r_icons">
+                                    <li><img src="img/bed.JPG" alt="bed"><span>Single Bed</span></li>
+                                    <li><img src="img/shower1.JPG" alt="shower1"><span>Shower</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="r_btn">
+                            <p>Room Detail</p>
+                            <button class="r_button">Make Reservation</button>
+                        </div>
+                    </div>
+                    <div class="room_types">
+                        <div class="r_same">
+                            <img src="img/img4.jpg" alt="img4">
+                            <div class="r_details">
+                                <p>$250/night</p>
+                                <h2>Deluxe King Size 3C</h2>
+                                <ul class="r_icons">
+                                    <li><img src="img/bed.JPG" alt="bed"><span>Queen Size</span></li>
+                                    <li><img src="img/shower.JPG" alt="shower"><span>Jacuzzi</span></li>
+                                    <li><img src="img/shower1.JPG" alt="shower1"><span>Shower</span></li>
+                                    <li><img src="img/bar.JPG" alt="bar"><span>Mini bar</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="r_btn">
+                            <p>Room Detail</p>
+                            <button class="r_button">Make Reservation</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
